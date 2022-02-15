@@ -1,0 +1,81 @@
+* {
+    font-size: 20px;
+    margin: 10px;
+    padding: 0;
+}
+
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+input {
+    width: 70%;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.signup {
+    padding-bottom: 80px;
+}
+
+.signup h4 {
+    margin-bottom: 40px;
+}
+
+.header-login {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.signed-in {
+    color: black;
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.header-signup {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.header-logout {
+    color: white;
+    background: black;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.signup-btn {
+    background: white;
+}
+
+.login-btn {
+    color: white;
+    background: black;
+}
